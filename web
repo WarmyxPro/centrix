@@ -63,7 +63,7 @@ function send_req(headers) {
         }, 5000);
     });
 }
-
+ 
 let init = function () {
     getHeaders().then(function (result) {
         console.log('Attack started !');
